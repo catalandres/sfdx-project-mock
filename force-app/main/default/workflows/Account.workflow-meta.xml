@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>FieldUpdateOne</fullName>
+        <description>Description</description>
+        <field>Type</field>
+        <literalValue>Customer</literalValue>
+        <name>Field Update One</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Workflow Rule One</fullName>
+        <actions>
+            <name>FieldUpdateOne</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Type</field>
+            <operation>notEqual</operation>
+            <value>Customer</value>
+        </criteriaItems>
+        <description>Description</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

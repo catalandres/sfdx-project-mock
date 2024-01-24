@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Opportunity Path One</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Description</fieldNames>
+        <info>&lt;p&gt;Pellentesque non tempus elit, vehicula mattis nulla. Nullam congue faucibus ligula a egestas. Morbi et diam sit amet augue euismod gravida. Pellentesque sit amet facilisis metus. Fusce auctor sem a lacus finibus tristique. Vivamus varius elit a orci sollicitudin laoreet. Duis sit amet nisl at sem bibendum pharetra a non sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eu urna non nisl feugiat cursus eu quis leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent dapibus, leo ac sodales sodales, metus risus sagittis nunc, vulputate tristique magna sapien sit amet neque. Morbi consectetur velit auctor, eleifend justo eu, vulputate magna. Duis porttitor interdum felis at elementum. Fusce in egestas quam. Donec pretium urna sit amet ipsum pellentesque blandit.&lt;/p&gt;</info>
+        <picklistValueName>Needs Analysis</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut nisi mauris. Integer in lacinia nisl, in tempor lorem. Nam ac orci vel arcu tempus laoreet id quis libero. Donec varius augue sed imperdiet vulputate. Pellentesque euismod sodales diam at maximus. Maecenas convallis neque posuere nulla euismod varius vel ac ligula. Phasellus lacinia ipsum non ante egestas, quis consectetur quam hendrerit.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Prospecting</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ContractId</fieldNames>
+        <picklistValueName>Qualification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

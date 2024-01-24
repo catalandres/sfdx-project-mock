@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <description>Description</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>Restriction Rule One</masterLabel>
+    <recordFilter>RecordType.DeveloperName=&apos;Nonexisting Record Type&apos;</recordFilter>
+    <targetEntity>CustomObjectOne__c</targetEntity>
+    <userCriteria>$User.IsActive=false</userCriteria>
+    <version>1</version>
+</RestrictionRule>

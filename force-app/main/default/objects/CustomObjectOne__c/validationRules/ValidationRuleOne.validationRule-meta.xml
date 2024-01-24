@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationRuleOne</fullName>
+    <active>true</active>
+    <description>Description</description>
+    <errorConditionFormula>TRUE</errorConditionFormula>
+    <errorMessage>Just don&apos;t.</errorMessage>
+</ValidationRule>

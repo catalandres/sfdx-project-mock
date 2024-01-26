@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessHours>Default</businessHours>
+    <isPerIncident>false</isPerIncident>
+    <type>Phone Support</type>
+</EntitlementTemplate>

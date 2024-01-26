@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CriteriaSharingRuleOne</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Description</description>
+        <label>Criteria Sharing Rule One</label>
+        <sharedTo>
+            <group>PublicGroupOne</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>EmailOne__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>OwnerSharingRuleOne</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Owner Sharing Rule One</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <group>PublicGroupOne</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

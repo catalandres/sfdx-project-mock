@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CustomLabelOne</fullName>
+        <categories>One, Two, Three, Four</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Label One</shortDescription>
+        <value>Ratione voluptatem praesentium omnis. Natus repellendus commodi facere voluptas et. Fugiat eaque sed non et et. Officiis laboriosam veritatis harum. Incidunt magni dolor sapiente debitis illum rerum reiciendis rerum.</value>
+    </labels>
+</CustomLabels>
